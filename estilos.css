@@ -1,0 +1,118 @@
+  body  {
+        background-image: url(fondo.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: right;
+        
+    }
+    h1 {
+        color: beige;
+    }
+    p {
+        color:blue;
+        font-size:18px;
+    }
+    button {
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        
+    }
+    button:hover {
+        background-color: green;
+        transition: background-color 0.5s ease;
+    }
+    .button {
+        background-color: blue;
+        color: white;
+    }
+    .grupo1 {
+        display: flex;
+        gap: 10px;
+    }
+    .grupo2 {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    #tercerBoton {background-color: purple;
+        color: yellow;
+    }
+    .tarjeta1 {
+        background-image: url(youtube.png);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 15px;
+        border-radius: 10px;
+        width: 300px;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 100.3);
+        transition: transform 0.3s ease;
+    
+        }
+      .tarjeta2 {
+        background-image: url(discord.png);
+        background-size: cover;
+        background-position: center;
+        color: rgb(38, 56, 223);
+        padding: 15px;
+        border-radius: 10px;
+        width: 300px;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 100.3);
+        transition: transform 0.3s ease;
+    
+    
+        }
+      .tarjeta3 {
+        background-image: url(google.png);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 15px;
+        border-radius: 10px;
+        width: 300px;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 1.3);
+        transition: transform 0.3s ease;
+    
+        }
+    .tarjeta:hover {
+        transform: translateY(-10px)
+    
+    }
+    .botontarjeta {
+        background-color: brown;
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+    
+    }
+    .contenedortarjetas {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        
+
+    }
+    .tarjeta1:hover{
+    transform: scale(1.05)
+    } 
+    .tarjeta2:hover{
+    transform: scale(1.05)
+    } 
+    .tarjeta3:hover{
+    transform: scale(1.05)
+    } 
