@@ -48,6 +48,7 @@
         background-image: url(youtube.png);
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
         color: white;
         padding: 15px;
         border-radius: 10px;
